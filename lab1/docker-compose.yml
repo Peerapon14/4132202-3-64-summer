@@ -1,0 +1,7 @@
+version: '3'
+
+service :confige:
+  wed:
+     image: nginx
+     ports:
+       -"8000:80"
