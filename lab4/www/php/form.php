@@ -37,7 +37,7 @@
          success: function(msg){
              console.log(msg);
 
-             
+             $("#div_content").load("./php/dt_user.php");
          }
      });
     });
